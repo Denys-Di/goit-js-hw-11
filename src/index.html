@@ -11,9 +11,12 @@
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
-      <!-- Loads the specified .html file -->
-      <div class="loader" id="loader" style="display: none;"></div>
-      <section class="gallery" id="gallery"></section>
+      <form class="search-form" id="search-form">
+        <input class="text-input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+        <button class="btn-submit" type="submit">Start</button>
+      </form>
+      <div class="loader" style="display: none;">Loading...</div>
+      <ul class="gallery"></ul>
     </main>
 
     <load src="./partials/footer.html" />
