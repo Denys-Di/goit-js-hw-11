@@ -9,7 +9,7 @@ export async function fetchImages(query, page = 1,) {
     orientation: 'horizontal',
     safesearch: 'true',
     page: page,
-    per_page: 16,
+    per_page: 30,
   });
  
   try {
